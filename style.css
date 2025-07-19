@@ -1,0 +1,137 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+}
+
+/* ============================================= */
+
+/* Mobile */
+@media (max-width: 768px) {
+    header {
+        width: 298px;
+        font-size: 15px;
+    }
+    .big {
+        flex-direction: column;
+    }
+}
+
+/* Computer */
+
+ @media (min-width: 1200px) {
+    header {
+        font-size: 21px;
+        }
+        .container-1 {
+            margin-right: 28px;
+        }
+        .container-4 {
+            margin-left: 28px;
+        }
+    }
+ /* =========================================== */
+
+header {
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    max-width: 488px;
+    margin: auto;
+    margin-top: 22px;
+    padding: 10px;
+    
+}
+
+header h2 {
+    font-weight: 200;
+    margin-bottom: 13px;
+}
+
+header h2 span {
+    font-weight: 600;
+}
+
+header p {
+    font-size: 13px;
+    color: hsl(229, 6%, 66%);
+}
+
+/* ======================================= */
+
+
+.big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.small {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ======================================= */
+
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    position: relative;
+    width: 335px;
+    height: 238px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    border-top-color: hsl(180, 62%, 55%);
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-radius: 5px;
+    box-shadow: 0px 6px 15px 4px #dbe5ef;
+}
+
+.container-1 h3,
+.container-2 h3,
+.container-3 h3,
+.container-4 h3 {
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+    margin-bottom: -4px;
+}
+
+.container-1 p,
+.container-2 p,
+.container-3 p, 
+.container-4 p {
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+}
+
+.container-1 img,
+.container-2 img,
+.container-3 img,
+.container-4 img {
+    position: absolute;
+    right: 29px;
+    bottom: 28px;
+}
+
+/* ================================= */
+
+.container-2 {
+    border-top-color: hsl(0, 78%, 62%);
+}
+
+/* ================================== */
+
+.container-3 {
+    border-top-color: hsl(34, 97%, 64%);
+}
+
+/* ================================ */
+
+.container-4 {
+    border-top-color: hsl(212, 86%, 64%);
+}
